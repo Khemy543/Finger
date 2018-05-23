@@ -1,0 +1,91 @@
+.headerMenu{
+    border-bottom: 1px solid #E0E0E0;
+    background-color:white;
+    height: 70px;
+    width:100%;
+    top: 0px;
+    overflow: hidden;
+    position: fixed;
+}
+#wrapper{
+    background-color:white;
+    height: 60px;
+    width:100%;
+    margin-top: 0px;
+}
+.logo{
+    position: relative;
+    padding-left:9px;
+    float: left;
+    width: 5px;
+    margin:0;
+    height: 7px;
+    background: white;
+    padding-top: -4px;
+    }
+
+    .logo img{
+        width:200px;
+        height: 80px;
+
+    }
+    .search_box{
+        position: relative;
+        left:550px;
+        top:20px;
+        background: white;
+    }
+    .search{
+        width:200px;
+        height: 30px;
+        border: 1px solid #CAC9C9;
+        border-radius: 4px;
+        background-color:white;
+        }
+    
+    #menu a img{
+        width:21px;
+        height: 21px;
+    }
+    @media screen and (max-width:1280px){
+    #menu{
+        position: absolute;
+        top:0px;
+        right: 0px;
+        height: 0px;
+        padding-top: 19px;
+        margin-right: 4%;
+    }
+}
+@media screen and (min-width:1280px){
+    #menu{
+        position: absolute;
+        top:0px;
+        right: 0px;
+        height: 0px;
+        padding-top: 19px;
+        margin-right: 10%;
+    }
+}
+@media screen and (min-width:1920px){
+    #menu{
+        position: absolute;
+        top:0px;
+        right: 0px;
+        height: 0px;
+        padding-top: 19px;
+        margin-right: 25%;
+    }
+}
+    #menu a{
+        text-decoration: none;
+        font-size: 14px;
+        padding-top: 19px;
+        padding-bottom: 22px;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor :pointer;
+    }
+    
+    
+       

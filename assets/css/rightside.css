@@ -1,0 +1,44 @@
+.topic_list{
+    position: fixed;
+    left:980px;
+    bottom: 120px;
+    width:330px;
+    height:450px;
+}
+#login{
+    position: relative;
+}
+.head{
+    height: 50px;
+    border:none;
+    position: relative;
+    left:80px;
+}
+.body{
+    height: 290px;
+    overflow-y: scroll;
+    border-top:1px solid #D3D2D2;
+    border-bottom: 1px solid #C5C5C5;
+}
+.footer{
+    position: relative;
+    top:15px;
+    height: 60px;
+    border:none;
+}
+h7{
+    font: sans-serif;
+    color:#A7A7A7;
+}
+.body ul li{
+    font: sans-serif;
+    font-size: 16px;
+    text-decoration:none;
+    list-style: none;
+    padding:15px 10px;
+}
+h8{
+    font: sans-serif;
+    font-size: 20px;
+    align-content: center;
+}

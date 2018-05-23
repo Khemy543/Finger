@@ -1,0 +1,39 @@
+.profile{
+    position: relative;
+    left:350px;
+    top:150px;
+    height: 500px;
+    width: 500px;
+}
+.p_header{
+    height: 90px;
+}
+.p_body{
+    border-top:1px solid #D3D2D2;
+    border-bottom:1px solid #D3D2D2;
+    height: 320px;
+}
+.p_footer{
+    height: 60px;
+}
+.p_footer ul li{
+    list-style: none;
+    display: inline;
+    padding:15px 10px;
+    position: relative;
+    top:10px;
+}
+h7{
+    font: sans-serif;
+    color:#A7A7A7;
+}
+h3{
+    font:sans-serif;
+    font-weight: bold;
+}
+.about{
+    position: relative;
+    top:50px;
+    border:none;
+    font-size: 16px;
+}
